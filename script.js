@@ -1,11 +1,6 @@
-/* ===================================================
-   ERICK ABELY MOSHI — PORTFOLIO
-   script.js — All UI behaviour, no frameworks
-   =================================================== */
-
 (() => {
 
-  // ─── NAV SCROLL STATE ──────────────────────────────
+  //  NAV SCROLL STATE 
   const nav = document.getElementById('nav');
 
   const updateNav = () => {
@@ -16,7 +11,7 @@
   updateNav();
 
 
-  // ─── ACTIVE NAV LINK ON SCROLL ─────────────────────
+  //  ACTIVE NAV LINK ON SCROLL 
   const navLinks = document.querySelectorAll('[data-nav]');
   const sections = document.querySelectorAll('section[id]');
 
@@ -40,7 +35,7 @@
   setActiveLink();
 
 
-  // ─── MOBILE MENU ───────────────────────────────────
+  //  MOBILE MENU 
   const burger = document.getElementById('burger');
   const overlay = document.getElementById('mobile-overlay');
   const mobLinks = document.querySelectorAll('.mob-link');
@@ -68,7 +63,7 @@
   });
 
 
-  // ─── SCROLL REVEAL ─────────────────────────────────
+  // SCROLL REVEAL
   const revealEls = document.querySelectorAll('.reveal');
 
   const revealObserver = new IntersectionObserver((entries) => {
@@ -86,7 +81,7 @@
   revealEls.forEach(el => revealObserver.observe(el));
 
 
-  // ─── BACK TO TOP ───────────────────────────────────
+  //  BACK TO TOP 
   const backBtn = document.getElementById('back-to-top');
 
   window.addEventListener('scroll', () => {
@@ -98,7 +93,7 @@
   });
 
 
-  // ─── PROFILE IMAGE FALLBACK ────────────────────────
+  // PROFILE IMAGE FALLBACK 
   const profileImg = document.getElementById('profile-img');
   const photoFrame = profileImg?.parentElement;
 
@@ -114,7 +109,7 @@
   }
 
 
-  // ─── CONTACT FORM ──────────────────────────────────
+  //  CONTACT FORM 
   const form = document.getElementById('contact-form');
 
   if (form) {
