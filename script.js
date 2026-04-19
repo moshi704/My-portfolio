@@ -215,7 +215,7 @@
   }
 
 
-  // SMOOTH SECTION TRANSITIONS 
+ 
   //  subtle flash effect on anchor navigation
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', (e) => {
