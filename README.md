@@ -100,6 +100,5 @@ Focus areas: Network architecture, system administration, database management an
 - Responsive to feedback
 - Honest about limitations
 
-**Last Updated:** April 2026  
-**Resume:** Available on request  
+**Last Updated:** April 2026   
 **Portfolio Website:** Live demo included.
